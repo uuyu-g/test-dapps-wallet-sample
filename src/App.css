@@ -24,6 +24,28 @@
   color: white;
 }
 
+.App-title {
+  margin-bottom: 14px;
+}
+
+.App-button {
+  margin: 8vmin;
+  height: 13vmin;
+  border-radius: 5px;
+  padding: 0 60px;
+  font-size: calc(10px + 3vmin);
+  font-weight: 900;
+}
+
+.App-caption {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+.App-address {
+  margin: 24px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -33,6 +55,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
